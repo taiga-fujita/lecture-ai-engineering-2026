@@ -6,6 +6,7 @@
 素のLLMは、AIを扱うにあたっての一般論的な回答であったが、エージェントは、この講義に即した内容になっている。
 - `--trace` で見えたツール呼び出し（ツール名と引数）：
 |ツール名|引数|
+|---|---|
 |search_glossary|({'query': 'LoRA'})|
 |search_glossary|({'query': 'QLoRA'})|
 - 1つの質問での LLM 呼び出し回数（`requests`）：2回
