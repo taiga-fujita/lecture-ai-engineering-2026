@@ -8,8 +8,7 @@
 |ツール名|引数|
 |search_glossary|({'query': 'LoRA'})|
 |search_glossary|({'query': 'QLoRA'})|
-- 1つの質問での LLM 呼び出し回数（`requests`）：
-・requests=2
+- 1つの質問での LLM 呼び出し回数（`requests`）：2回
 - 追加したツールと、docstring に書いた説明：
 def make_quiz(lecture: int) -> str:
     """指定した回の用語集からランダムに用語を選んでクイズを作る。
