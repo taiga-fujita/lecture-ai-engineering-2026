@@ -12,7 +12,7 @@
 | search_glossary | `{'query': 'QLoRA'}` |
 - 1つの質問での LLM 呼び出し回数（`requests`）：2回
 - 追加したツールと、docstring に書いた説明：
-- 'def make_quiz(lecture: int) -> str:
+- def make_quiz(lecture: int) -> str:
     """指定した回の用語集からランダムに用語を選んでクイズを作る。
 
     「第2回の確認問題を出して」のように、復習用の問題を求められた時に使う
@@ -28,7 +28,7 @@
     if show_answer:
         quiz["answer"] = term["definition"]
         print(f"答え: {term['definition']}")
-    return json.dumps([quiz], ensure_ascii=False)'
+    return json.dumps([quiz], ensure_ascii=False)
 
 ## 宿題
 
